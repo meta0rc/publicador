@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+  }
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    background-color: #D8EBF7;
+}
+.inputs{
+    height : 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    margin: 2px;
+    
+}
+.whatsapp form{
+    flex-flow: unset;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+#btn-wwp{
+    margin-top: 5px;
+    width: 50%;
+    margin-left: 10%;
+    
+}
+.wimg{
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+form{
+    display: flex;
+    flex-flow: column;
+    margin-top: 25px;
+  }
+section#main {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    width: 41%;
+    background-color: #fff;
+    padding: 3%;
+    border-radius: 20px;
+    box-shadow: 0px 11px 38px -12px rgb(0 0 0 / 16%);
+}
+section#upload {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    width: 59%;
+}
+
+label {
+    font-weight: 700;
+    font-size: 21px;
+    padding-bottom: 9px;
+    color: #2F3640;
+}
+
+h1 {
+    margin: 31px 0px;
+    font-size: 40px;
+    color: #224154;
+    /* text-transform: uppercase; */
+}
+
+input#id_input {font-size: 16px;margin-bottom: 12px;text-align: center;height: 33px;border: solid 1px #c3c3c3;}
+
+input[type="submit"] {transition: 0.2s all;background-color: 0D84DA;border: none;font-size: 17px;font-weight: 600;padding: 5px;color: #fff;border-radius: 3px;cursor: pointer;box-shadow: 0px 11px 30px -11px rgb(0 0 0 / 59%);}
+
+input[type="submit"]:hover {
+    background-color: #2f3640;
+}
+
+span {
+    color: #9e9e9e;
+    font-size: 13px;
+    margin-top: 40px;
+}
+
+video {
+    
+width: 42%;
+    
+border-radius: 20px;
+    
+box-shadow: 0px 11px 38px 831px rgb(0 0 0 / 45%);
+}
+
+
+
+p {
+    color: #838bf3;
+    position: relative;
+    top: 239px;
+    text-align: center;
+    font-weight: 700;
+}
+
+figure#load {
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+figcaption#status {
+    color: #000;
+}
+    .flex{
+        display: flex;
+    }
+    .btn{
+    padding: 9px 19px;
+    margin-right: 10px;
+    background: #0d84da;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 14px;
+    width: 203px;
+    /* text-decoration: none; */
+    /* float: right; */
+    cursor: pointer;
+    display: block;
+    }
+    #tel{
+        text-align: center;
+    }
+    .opac{
+        display: none;
+    }
+    #wwp{
+    height: 36px;
+    padding: 6px;
+    width: 140px;
+    }
+
+    .whatsapp .form2 {
+        flex-flow: unset;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        margin: 5px;}
+    .whatsapp .form2 label{
+        text-align: left;
+    }
+    #valor{
+        position: relative;
+        font-weight: bold;
+        color: #838BF3;
+        font-size: 19px;
+        top: 53px;
+
+    }
+
+
+    .progress{
+        width: 150px;
+        height: 10px;
+        /* text-align: center; */
+        margin: 0 auto;
+        position: relative;
+        /* display: flex; */
+        align-items: center;
+        border: 1px solid #bfbfbfad;
+        justify-content: center;
+        border-radius: 5px;
+        top: -237px;
+    }
+    .progressBarD{
+        height: 10px;
+        background-color: #626cf9;
+        width: 0;
+        border-radius: 18px;
+    }
