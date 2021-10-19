@@ -6,7 +6,7 @@ header('Content-Type: application/json');
 if (!isset($_POST['id'])) die();
 $id = $_POST['id'];
 $_SESSION['id'] = $id; 
-$url = "http://buscacliente.com.br/painel/app/webroot/renders/".$id."/site.zip";
+$url = "http://painel.buscacliente.com.br/app/webroot/renders/".$id."/site.zip";
 $newFname = "../".basename($url);
 
 $control = new Publish();
